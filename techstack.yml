@@ -1,0 +1,601 @@
+repo_name: famosus/NotionNext
+report_id: 57b93bffd8bfd70abe9e0ed601acf73e
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-05T18:57:39+00:00'
+requested_by: tangly1024
+provider: github
+branch: main
+detected_tools_count: 45
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/famosus/NotionNext
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/famosus/NotionNext
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/famosus/NotionNext
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/famosus/NotionNext
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.3.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: tangly1024
+  last_updated_on: 2022-04-06 09:01:09.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: tangly1024
+  last_updated_on: 2021-09-27 01:33:21.000000000 Z
+- name: Preact
+  description: Fast 3kb alternative to React with the same ES6 API
+  website_url: http://developit.github.io/preact/
+  version: 10.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhwa233
+  last_updated_on: 2024-03-02 07:31:58.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhwa233
+  last_updated_on: 2024-03-02 07:31:58.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 4.17.2
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: lib/cache/mongo_db_cache.js
+  last_updated_by: tlyong1992
+  last_updated_on: 2022-06-06 09:23:07.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/famosus/NotionNext
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: tangly1024
+  last_updated_on: 2021-09-27 01:33:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/famosus/NotionNext
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Bhwa233
+  last_updated_on: 2024-03-06 07:24:50.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-02 09:10:53.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: tangly1024
+  last_updated_on: 2021-09-27 01:33:21.000000000 Z
+- name: Algolia
+  description: Developer-friendly API and complete set of tools for building search
+  website_url: https://www.algolia.com/?utm_source=stackshare&utm_medium=referral
+  version: 4.22.1
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/vercel.json
+  detection_source: vercel.json
+  last_updated_by: tangly1024
+  last_updated_on: 2021-09-27 01:33:21.000000000 Z
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  version: 1.1.2
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: "@vercel/analytics"
+  description: Gain real-time traffic insights with Vercel Web Analytics
+  package_url: https://www.npmjs.com/@vercel/analytics
+  version: 1.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: algoliasearch
+  description: A fully-featured and blazing-fast JavaScript API client to interact
+    with Algolia API
+  package_url: https://www.npmjs.com/algoliasearch
+  version: 4.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17074/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: animejs
+  description: JavaScript animation engine
+  package_url: https://www.npmjs.com/animejs
+  version: 3.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18473/default_4d6972312cb6be6601580f505cb85932d72a7e43.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-01 08:30:55.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.5.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 16.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 5.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.33.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-15 10:01:38.000000000 Z
+- name: js-md5
+  description: A simple MD5 hash function for JavaScript supports UTF-8 encoding
+  package_url: https://www.npmjs.com/js-md5
+  version: 0.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18203/default_329699d382cad74e0d389300999bd267b9699d3f.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: lodash.throttle
+  description: The lodash method `_.throttle` exported as a module
+  package_url: https://www.npmjs.com/lodash.throttle
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16643/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: memory-cache
+  description: A simple in-memory cache. put
+  package_url: https://www.npmjs.com/memory-cache
+  version: 0.2.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18506/default_aabef48673d7b85e098f65ec3d0fa0b5983de6b5.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhwa233
+  last_updated_on: 2024-03-02 07:31:58.000000000 Z
+- name: react-hotkeys-hook
+  description: React hook for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/react-hotkeys-hook
+  version: 3.4.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhwa233
+  last_updated_on: 2024-03-02 07:31:58.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-02-04 10:17:15.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/famosus/NotionNext/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: tangly1024.com
+  last_updated_on: 2024-03-01 08:30:55.000000000 Z
